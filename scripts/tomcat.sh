@@ -32,7 +32,7 @@ if [[ "$ID" = "ubuntu" || "$ID" = "debian" ]]; then
 
     echo "-- Cloning & building app --"
     cd /opt/
-    git clone https://github.com/kareemloulah/MicroService-App-Deployment.git
+    git clone https://github.com/A7medo-O/Micro-Service-App-
     cd MicroService-App-Deployment
     mvn clean install -DskipTests
 
