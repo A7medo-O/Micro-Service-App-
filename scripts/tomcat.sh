@@ -32,8 +32,8 @@ if [[ "$ID" = "ubuntu" || "$ID" = "debian" ]]; then
 
     echo "-- Cloning & building app --"
     cd /opt/
-    git clone https://github.com/A7medo-O/Micro-Service-App-
-    cd MicroService-App-Deployment
+    git clone https://github.com/A7medo-O/Micro-Service-App-.git
+    cd Micro-Service-App-
     mvn clean install -DskipTests
 
     echo "-- Deploying WAR --"
